@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    column-gap: 1.5rem;
+}
+
+.productoImgChica{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.productoImgChica img{
+    width: 100%;
+    height: 65px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.productoImgChica img:hover{
+    opacity: 1;
+}
+
+.productoImgGrande img{
+    width: 100%;
+    height: 400px;
+}
